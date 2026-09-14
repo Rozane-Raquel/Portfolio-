@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de desenvolvimento de Rozane Raquel da Silva Gonçalves." />
+    <title>Rozane Raquel — Estudante de Sistemas de Informação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Rozane Raquel, início">RR<span>.</span></a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Habilidades</a>
+        <a href="#contato">Sobre / contato</a>
+      </nav>
+      <a class="header-cta" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Olá, mundo!</p>
+          <h1>Sou <em>Rozane</em><br />Raquel.</h1>
+          <p class="full-name">Rozane Raquel da Silva Gonçalves</p>
+          <p class="role">&lt; / Estudante de Sistemas de Informação &gt;</p>
+          <p class="role">Desenvolvimento de Software • Dados • Inteligência Artificial</p>
+          <p class="hero-description">Transformo conhecimentos em programação em projetos e soluções práticas.</p>
+          <a class="primary-button" href="#projetos">Conheça meus projetos <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-aside" aria-label="Foto de Rozane Raquel">
+          <div class="portrait-ring"><img src="/assets/rozaneraquel.jpeg" alt="Retrato de Rozane Raquel da Silva Gonçalves" /></div>
+          <div class="hero-index">01 <span>/ 04</span></div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projetos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PROJETOS E EXPERIÊNCIAS ACADÊMICAS</p>
+            <h2><span>[</span> Projetos <span>]</span></h2>
+          </div>
+          <p class="section-note">Uma seleção de projetos e experiências desenvolvidos ao longo da minha formação.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar projetos">
+          <button class="filter-button active" data-filter="Todos">Todos <span>04</span></button>
+          <button class="filter-button" data-filter="Todos">Projetos acadêmicos <span>04</span></button>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="skills-section" id="sobre">
+        <div class="section-heading skills-heading"><div><p class="eyebrow">Ferramentas que uso</p><h2><span>[</span> Habilidades <span>]</span></h2></div></div>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Python</h3><p>Principal linguagem de estudo e desenvolvimento, utilizada em projetos acadêmicos e análise de dados.</p><a class="skill-toggle" href="#" aria-expanded="false">Ver mais <span>⌄</span></a><div class="skill-details"><h4>Descrição</h4><p>Minha principal linguagem de programação atualmente. Tenho utilizado Python em projetos acadêmicos envolvendo desenvolvimento web, análise de dados, algoritmos e visualização de informações.</p><h4>Conhecimentos</h4><ul><li>Lógica de programação</li><li>Estruturas de dados</li><li>Funções e modularização</li><li>Programação com Python</li><li>Pandas</li><li>Matplotlib</li><li>Flask</li></ul><h4>Projetos relacionados</h4><p>InsightEdu • Seletor Adaptativo de Algoritmos • Projeto de Estatística</p></div></article>
+          <article class="skill-card"><h3>Java</h3><p>Experiência acadêmica com Programação Orientada a Objetos e desenvolvimento de aplicações.</p><a class="skill-toggle" href="#" aria-expanded="false">Ver mais <span>⌄</span></a><div class="skill-details"><h4>Descrição</h4><p>Linguagem utilizada principalmente em projetos acadêmicos, com foco em Programação Orientada a Objetos e aplicação de padrões de projeto.</p><h4>Conhecimentos</h4><ul><li>Programação Orientada a Objetos</li><li>Classes e objetos</li><li>Herança</li><li>Encapsulamento</li><li>Polimorfismo</li><li>Interfaces</li><li>Classes abstratas</li><li>Design Patterns</li></ul><h4>Projetos relacionados</h4><p>To-Do List • Design Patterns em Java</p></div></article>
+          <article class="skill-card"><h3>Git &amp; GitHub</h3><p>Versionamento, organização e gerenciamento de projetos.</p><a class="skill-toggle" href="#" aria-expanded="false">Ver mais <span>⌄</span></a><div class="skill-details"><h4>Descrição</h4><p>Utilizo Git e GitHub para versionamento, organização e publicação dos meus projetos, além de acompanhar o desenvolvimento de trabalhos em equipe.</p><h4>Conhecimentos</h4><ul><li>Repositórios</li><li>Commits</li><li>Branches</li><li>Push / Pull</li><li>GitHub</li><li>README e documentação</li><li>Organização de projetos</li><li>Trabalho colaborativo</li></ul><h4>Projetos relacionados</h4><p>InsightEdu • Seletor Adaptativo de Algoritmos • To-Do List • Design Patterns</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato">
+        <div class="contact-copy"><p class="eyebrow">Sobre mim</p><h2>Quem<br /><em>sou eu.</em></h2><div class="about-text"><p><strong>Sou estudante de Sistemas de Informação, com interesse em Desenvolvimento de Software, Dados e Inteligência Artificial.</strong></p><p>Minha principal linguagem atualmente é Python, que venho utilizando em projetos acadêmicos envolvendo desenvolvimento web, algoritmos, análise e visualização de dados. Também possuo experiência acadêmica com Java, principalmente em Programação Orientada a Objetos e Design Patterns.</p><p>Ao longo da minha formação, tenho buscado transformar os conhecimentos aprendidos em projetos práticos, trabalhando tanto individualmente quanto em equipe. Também utilizo Git e GitHub para versionar e organizar meus projetos.</p><p>Além da graduação, minha formação técnica em Manutenção e Suporte em Informática e a participação em projetos como o CultivaTech contribuíram para desenvolver minha capacidade de resolver problemas, trabalhar em equipe e transformar ideias em soluções.</p><p><strong>Atualmente, busco uma oportunidade de estágio em Desenvolvimento de Software para continuar evoluindo tecnicamente, aprender com profissionais da área e contribuir com projetos reais.</strong></p></div></div>
+        <form class="contact-form"><p class="eyebrow">Contato</p><div class="contact-links"><a href="mailto:raquel.goncalves09@aluno.ifce.edu.br">raquel.goncalves09@aluno.ifce.edu.br <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/rozane-raquel-da-silva-gon%C3%A7alves-b87b0a3a9/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/Rozane-Raquel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></form>
+      </section>
+    </main>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title">
+      <div class="project-dialog-content">
+        <button class="project-dialog-close" type="button" onclick="this.closest('dialog').close()" aria-label="Fechar descrição">×</button>
+        <p class="eyebrow project-dialog-type"></p>
+        <h2 class="project-dialog-title" id="project-dialog-title"></h2>
+        <p class="project-dialog-description"></p>
+        <a class="project-dialog-github" href="#" target="_blank" rel="noopener noreferrer">Ver repositório no GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </dialog>
+
+    <footer class="site-footer"><span>© 2024 Rozane Raquel</span><span>Feito com intenção e código.</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
